@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HozonData" representedClassName="HozonData" syncable="YES" codeGenerationType="class">
+        <attribute name="month" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tochokuhyo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TochokuData" representedClassName="TochokuData" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nicchokuFuka" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nicchokuKibo" optional="YES" attributeType="String" customClassName="[Date]" syncable="YES"/>
+        <attribute name="tochokuFuka" optional="YES" attributeType="String" customClassName="[Date]" syncable="YES"/>
+        <attribute name="tochokukai" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tochokuKibo" optional="YES" attributeType="String" customClassName="[Date]" syncable="YES"/>
+        <attribute name="torokubi" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="yushinFuka" optional="YES" attributeType="String" customClassName="[Date]" syncable="YES"/>
+        <attribute name="yushinkai" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="yushinKibo" optional="YES" attributeType="String" customClassName="[Date]" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HozonData" positionX="-63" positionY="54" width="128" height="75"/>
+        <element name="TochokuData" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>

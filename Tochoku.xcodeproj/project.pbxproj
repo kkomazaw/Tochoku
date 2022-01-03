@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68081C15204AC64B00D8783A /* TorokuishiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68081C14204AC64B00D8783A /* TorokuishiTableViewController.swift */; };
+		6810267E2181F9BA00FA43BE /* NNYASakuseiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810267D2181F9BA00FA43BE /* NNYASakuseiViewController.swift */; };
+		681026802181FA6D00FA43BE /* NNYACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810267F2181FA6D00FA43BE /* NNYACollectionViewCell.swift */; };
+		6811BB5821B173AC00205FF4 /* JujishaUketoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811BB5721B173AC00205FF4 /* JujishaUketoriViewController.swift */; };
+		6827CA8D22E496BA007FD2B3 /* HozonIshibetsuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6827CA8C22E496BA007FD2B3 /* HozonIshibetsuViewController.swift */; };
+		682F262A2062A67000551DB5 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682F26292062A67000551DB5 /* CalendarCollectionViewCell.swift */; };
+		683D8AEF204582DD00B8C12A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683D8AEE204582DD00B8C12A /* AppDelegate.swift */; };
+		683D8AF1204582DD00B8C12A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683D8AF0204582DD00B8C12A /* ViewController.swift */; };
+		683D8AF4204582DD00B8C12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683D8AF2204582DD00B8C12A /* Main.storyboard */; };
+		683D8AF7204582DD00B8C12A /* Tochoku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 683D8AF5204582DD00B8C12A /* Tochoku.xcdatamodeld */; };
+		683D8AF9204582DD00B8C12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683D8AF8204582DD00B8C12A /* Assets.xcassets */; };
+		683D8AFC204582DD00B8C12A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683D8AFA204582DD00B8C12A /* LaunchScreen.storyboard */; };
+		683D8B042045947100B8C12A /* IshiTorokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683D8B032045947100B8C12A /* IshiTorokuViewController.swift */; };
+		68458A1A204C0A4A00FB2E5F /* ShuseiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68458A19204C0A4A00FB2E5F /* ShuseiViewController.swift */; };
+		68458A1C204C28D200FB2E5F /* SakuseiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68458A1B204C28D200FB2E5F /* SakuseiViewController.swift */; };
+		685937A8215BCBB100F3A5DF /* ShokiSetteiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685937A7215BCBB100F3A5DF /* ShokiSetteiViewController.swift */; };
+		68685301214EB5DA00DE165B /* HozonKekkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68685300214EB5DA00DE165B /* HozonKekkaViewController.swift */; };
+		6869C57F216A43AB00AAEFBB /* SubCalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6869C57E216A43AB00AAEFBB /* SubCalendarCollectionViewCell.swift */; };
+		686A47BC21872CFD0049D9CA /* DNSakuseiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A47BB21872CFD0049D9CA /* DNSakuseiViewController.swift */; };
+		686A47BE21872DF30049D9CA /* DNCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A47BD21872DF30049D9CA /* DNCollectionViewCell.swift */; };
+		686A47C021873E6F0049D9CA /* DNFukabiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A47BF21873E6F0049D9CA /* DNFukabiViewController.swift */; };
+		686A47C221873F2D0049D9CA /* DNSubCalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A47C121873F2D0049D9CA /* DNSubCalendarCollectionViewCell.swift */; };
+		686A47C4218744020049D9CA /* DNImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A47C3218744020049D9CA /* DNImportViewController.swift */; };
+		687A12E7217F69FC00467611 /* YNNAKibobiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A12E6217F69FB00467611 /* YNNAKibobiViewController.swift */; };
+		689948152104696100C277DD /* RevisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689948142104696100C277DD /* RevisionViewController.swift */; };
+		68A05BD52188933F00EA4C42 /* KyujitsuHenkoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A05BD42188933F00EA4C42 /* KyujitsuHenkoViewController.swift */; };
+		68A05BD72188959800EA4C42 /* KyujitsuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A05BD62188959800EA4C42 /* KyujitsuCollectionViewCell.swift */; };
+		68A5037520838B7A00B52CFC /* KekkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A5037420838B7A00B52CFC /* KekkaViewController.swift */; };
+		68A5B5922173705E00F3AC10 /* KibobiImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A5B5912173705E00F3AC10 /* KibobiImportViewController.swift */; };
+		68A61A5E2169AF0E0015FF4F /* FukabiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A61A5D2169AF0E0015FF4F /* FukabiViewController.swift */; };
+		68B6C64520E901E400E14541 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6C64420E901E400E14541 /* DetailViewController.swift */; };
+		68C7C9E5215689B100223A0D /* HozonRevisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C9E4215689B100223A0D /* HozonRevisionViewController.swift */; };
+		68CAE3F7217CB77500404BEF /* YNNASakuseiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CAE3F6217CB77500404BEF /* YNNASakuseiViewController.swift */; };
+		68CAE3F9217CBA7800404BEF /* YNNACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CAE3F8217CBA7800404BEF /* YNNACollectionViewCell.swift */; };
+		68CE08082185E5F50016E159 /* NNYAFukabiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE08072185E5F50016E159 /* NNYAFukabiViewController.swift */; };
+		68CE080A2185E6720016E159 /* NNYASubCalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE08092185E6720016E159 /* NNYASubCalendarCollectionViewCell.swift */; };
+		68CE080C2185EF9F0016E159 /* NNYAImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE080B2185EF9F0016E159 /* NNYAImportViewController.swift */; };
+		68DB9C9E214F5A2F00511B41 /* HozonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB9C9D214F5A2F00511B41 /* HozonTableViewController.swift */; };
+		68F0A65421BD5051000BB928 /* CalendarLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0A65321BD5051000BB928 /* CalendarLinkViewController.swift */; };
+		68FABD682180B08D00936877 /* YNNAFukabiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FABD672180B08D00936877 /* YNNAFukabiViewController.swift */; };
+		68FABD6A2180B10200936877 /* YNNASubCalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FABD692180B10200936877 /* YNNASubCalendarCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68081C14204AC64B00D8783A /* TorokuishiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorokuishiTableViewController.swift; sourceTree = "<group>"; };
+		6810267D2181F9BA00FA43BE /* NNYASakuseiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNYASakuseiViewController.swift; sourceTree = "<group>"; };
+		6810267F2181FA6D00FA43BE /* NNYACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNYACollectionViewCell.swift; sourceTree = "<group>"; };
+		6811BB5721B173AC00205FF4 /* JujishaUketoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JujishaUketoriViewController.swift; sourceTree = "<group>"; };
+		6827CA8C22E496BA007FD2B3 /* HozonIshibetsuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HozonIshibetsuViewController.swift; sourceTree = "<group>"; };
+		682F26292062A67000551DB5 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		683D8AEB204582DD00B8C12A /* Tochoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tochoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		683D8AEE204582DD00B8C12A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		683D8AF0204582DD00B8C12A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		683D8AF3204582DD00B8C12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		683D8AF6204582DD00B8C12A /* Tochoku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tochoku.xcdatamodel; sourceTree = "<group>"; };
+		683D8AF8204582DD00B8C12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		683D8AFB204582DD00B8C12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		683D8AFD204582DD00B8C12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683D8B032045947100B8C12A /* IshiTorokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshiTorokuViewController.swift; sourceTree = "<group>"; };
+		68458A19204C0A4A00FB2E5F /* ShuseiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuseiViewController.swift; sourceTree = "<group>"; };
+		68458A1B204C28D200FB2E5F /* SakuseiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakuseiViewController.swift; sourceTree = "<group>"; };
+		685937A7215BCBB100F3A5DF /* ShokiSetteiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShokiSetteiViewController.swift; sourceTree = "<group>"; };
+		68685300214EB5DA00DE165B /* HozonKekkaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HozonKekkaViewController.swift; sourceTree = "<group>"; };
+		6869C57E216A43AB00AAEFBB /* SubCalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		686A47BB21872CFD0049D9CA /* DNSakuseiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSakuseiViewController.swift; sourceTree = "<group>"; };
+		686A47BD21872DF30049D9CA /* DNCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNCollectionViewCell.swift; sourceTree = "<group>"; };
+		686A47BF21873E6F0049D9CA /* DNFukabiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNFukabiViewController.swift; sourceTree = "<group>"; };
+		686A47C121873F2D0049D9CA /* DNSubCalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSubCalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		686A47C3218744020049D9CA /* DNImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNImportViewController.swift; sourceTree = "<group>"; };
+		687A12E6217F69FB00467611 /* YNNAKibobiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNNAKibobiViewController.swift; sourceTree = "<group>"; };
+		689948142104696100C277DD /* RevisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevisionViewController.swift; sourceTree = "<group>"; };
+		68A05BD42188933F00EA4C42 /* KyujitsuHenkoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyujitsuHenkoViewController.swift; sourceTree = "<group>"; };
+		68A05BD62188959800EA4C42 /* KyujitsuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyujitsuCollectionViewCell.swift; sourceTree = "<group>"; };
+		68A5037420838B7A00B52CFC /* KekkaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekkaViewController.swift; sourceTree = "<group>"; };
+		68A5B5912173705E00F3AC10 /* KibobiImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibobiImportViewController.swift; sourceTree = "<group>"; };
+		68A61A5D2169AF0E0015FF4F /* FukabiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FukabiViewController.swift; sourceTree = "<group>"; };
+		68B6C64420E901E400E14541 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		68C7C9E4215689B100223A0D /* HozonRevisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HozonRevisionViewController.swift; sourceTree = "<group>"; };
+		68CAE3F6217CB77500404BEF /* YNNASakuseiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNNASakuseiViewController.swift; sourceTree = "<group>"; };
+		68CAE3F8217CBA7800404BEF /* YNNACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNNACollectionViewCell.swift; sourceTree = "<group>"; };
+		68CE08072185E5F50016E159 /* NNYAFukabiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNYAFukabiViewController.swift; sourceTree = "<group>"; };
+		68CE08092185E6720016E159 /* NNYASubCalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNYASubCalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		68CE080B2185EF9F0016E159 /* NNYAImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNYAImportViewController.swift; sourceTree = "<group>"; };
+		68DB9C9D214F5A2F00511B41 /* HozonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HozonTableViewController.swift; sourceTree = "<group>"; };
+		68F0A65321BD5051000BB928 /* CalendarLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarLinkViewController.swift; sourceTree = "<group>"; };
+		68FABD672180B08D00936877 /* YNNAFukabiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNNAFukabiViewController.swift; sourceTree = "<group>"; };
+		68FABD692180B10200936877 /* YNNASubCalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNNASubCalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683D8AE8204582DD00B8C12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683D8AE2204582DD00B8C12A = {
+			isa = PBXGroup;
+			children = (
+				683D8AED204582DD00B8C12A /* Tochoku */,
+				683D8AEC204582DD00B8C12A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683D8AEC204582DD00B8C12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683D8AEB204582DD00B8C12A /* Tochoku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683D8AED204582DD00B8C12A /* Tochoku */ = {
+			isa = PBXGroup;
+			children = (
+				683D8AEE204582DD00B8C12A /* AppDelegate.swift */,
+				683D8AF0204582DD00B8C12A /* ViewController.swift */,
+				683D8AF2204582DD00B8C12A /* Main.storyboard */,
+				683D8AF8204582DD00B8C12A /* Assets.xcassets */,
+				683D8AFA204582DD00B8C12A /* LaunchScreen.storyboard */,
+				683D8AFD204582DD00B8C12A /* Info.plist */,
+				683D8AF5204582DD00B8C12A /* Tochoku.xcdatamodeld */,
+				685937A7215BCBB100F3A5DF /* ShokiSetteiViewController.swift */,
+				683D8B032045947100B8C12A /* IshiTorokuViewController.swift */,
+				68081C14204AC64B00D8783A /* TorokuishiTableViewController.swift */,
+				68458A19204C0A4A00FB2E5F /* ShuseiViewController.swift */,
+				68458A1B204C28D200FB2E5F /* SakuseiViewController.swift */,
+				682F26292062A67000551DB5 /* CalendarCollectionViewCell.swift */,
+				68A5037420838B7A00B52CFC /* KekkaViewController.swift */,
+				68B6C64420E901E400E14541 /* DetailViewController.swift */,
+				689948142104696100C277DD /* RevisionViewController.swift */,
+				68DB9C9D214F5A2F00511B41 /* HozonTableViewController.swift */,
+				68685300214EB5DA00DE165B /* HozonKekkaViewController.swift */,
+				68C7C9E4215689B100223A0D /* HozonRevisionViewController.swift */,
+				68A61A5D2169AF0E0015FF4F /* FukabiViewController.swift */,
+				6869C57E216A43AB00AAEFBB /* SubCalendarCollectionViewCell.swift */,
+				68A5B5912173705E00F3AC10 /* KibobiImportViewController.swift */,
+				68CAE3F6217CB77500404BEF /* YNNASakuseiViewController.swift */,
+				68CAE3F8217CBA7800404BEF /* YNNACollectionViewCell.swift */,
+				687A12E6217F69FB00467611 /* YNNAKibobiViewController.swift */,
+				68FABD672180B08D00936877 /* YNNAFukabiViewController.swift */,
+				68FABD692180B10200936877 /* YNNASubCalendarCollectionViewCell.swift */,
+				6810267D2181F9BA00FA43BE /* NNYASakuseiViewController.swift */,
+				6810267F2181FA6D00FA43BE /* NNYACollectionViewCell.swift */,
+				68CE08072185E5F50016E159 /* NNYAFukabiViewController.swift */,
+				68CE08092185E6720016E159 /* NNYASubCalendarCollectionViewCell.swift */,
+				68CE080B2185EF9F0016E159 /* NNYAImportViewController.swift */,
+				686A47BB21872CFD0049D9CA /* DNSakuseiViewController.swift */,
+				686A47BD21872DF30049D9CA /* DNCollectionViewCell.swift */,
+				686A47BF21873E6F0049D9CA /* DNFukabiViewController.swift */,
+				686A47C121873F2D0049D9CA /* DNSubCalendarCollectionViewCell.swift */,
+				686A47C3218744020049D9CA /* DNImportViewController.swift */,
+				68A05BD42188933F00EA4C42 /* KyujitsuHenkoViewController.swift */,
+				68A05BD62188959800EA4C42 /* KyujitsuCollectionViewCell.swift */,
+				6811BB5721B173AC00205FF4 /* JujishaUketoriViewController.swift */,
+				68F0A65321BD5051000BB928 /* CalendarLinkViewController.swift */,
+				6827CA8C22E496BA007FD2B3 /* HozonIshibetsuViewController.swift */,
+			);
+			path = Tochoku;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683D8AEA204582DD00B8C12A /* Tochoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683D8B00204582DD00B8C12A /* Build configuration list for PBXNativeTarget "Tochoku" */;
+			buildPhases = (
+				683D8AE7204582DD00B8C12A /* Sources */,
+				683D8AE8204582DD00B8C12A /* Frameworks */,
+				683D8AE9204582DD00B8C12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tochoku;
+			productName = Tochoku;
+			productReference = 683D8AEB204582DD00B8C12A /* Tochoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683D8AE3204582DD00B8C12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Matsui Keiji";
+				TargetAttributes = {
+					683D8AEA204582DD00B8C12A = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 683D8AE6204582DD00B8C12A /* Build configuration list for PBXProject "Tochoku" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 683D8AE2204582DD00B8C12A;
+			productRefGroup = 683D8AEC204582DD00B8C12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683D8AEA204582DD00B8C12A /* Tochoku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683D8AE9204582DD00B8C12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683D8AFC204582DD00B8C12A /* LaunchScreen.storyboard in Resources */,
+				683D8AF9204582DD00B8C12A /* Assets.xcassets in Resources */,
+				683D8AF4204582DD00B8C12A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683D8AE7204582DD00B8C12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686A47BE21872DF30049D9CA /* DNCollectionViewCell.swift in Sources */,
+				68DB9C9E214F5A2F00511B41 /* HozonTableViewController.swift in Sources */,
+				68A05BD52188933F00EA4C42 /* KyujitsuHenkoViewController.swift in Sources */,
+				68A05BD72188959800EA4C42 /* KyujitsuCollectionViewCell.swift in Sources */,
+				682F262A2062A67000551DB5 /* CalendarCollectionViewCell.swift in Sources */,
+				689948152104696100C277DD /* RevisionViewController.swift in Sources */,
+				68081C15204AC64B00D8783A /* TorokuishiTableViewController.swift in Sources */,
+				68458A1A204C0A4A00FB2E5F /* ShuseiViewController.swift in Sources */,
+				68685301214EB5DA00DE165B /* HozonKekkaViewController.swift in Sources */,
+				68A61A5E2169AF0E0015FF4F /* FukabiViewController.swift in Sources */,
+				681026802181FA6D00FA43BE /* NNYACollectionViewCell.swift in Sources */,
+				68FABD6A2180B10200936877 /* YNNASubCalendarCollectionViewCell.swift in Sources */,
+				686A47C021873E6F0049D9CA /* DNFukabiViewController.swift in Sources */,
+				6811BB5821B173AC00205FF4 /* JujishaUketoriViewController.swift in Sources */,
+				683D8AF1204582DD00B8C12A /* ViewController.swift in Sources */,
+				68CE080A2185E6720016E159 /* NNYASubCalendarCollectionViewCell.swift in Sources */,
+				6827CA8D22E496BA007FD2B3 /* HozonIshibetsuViewController.swift in Sources */,
+				68CAE3F9217CBA7800404BEF /* YNNACollectionViewCell.swift in Sources */,
+				686A47C4218744020049D9CA /* DNImportViewController.swift in Sources */,
+				68A5B5922173705E00F3AC10 /* KibobiImportViewController.swift in Sources */,
+				68F0A65421BD5051000BB928 /* CalendarLinkViewController.swift in Sources */,
+				686A47BC21872CFD0049D9CA /* DNSakuseiViewController.swift in Sources */,
+				68FABD682180B08D00936877 /* YNNAFukabiViewController.swift in Sources */,
+				6810267E2181F9BA00FA43BE /* NNYASakuseiViewController.swift in Sources */,
+				68A5037520838B7A00B52CFC /* KekkaViewController.swift in Sources */,
+				685937A8215BCBB100F3A5DF /* ShokiSetteiViewController.swift in Sources */,
+				68458A1C204C28D200FB2E5F /* SakuseiViewController.swift in Sources */,
+				687A12E7217F69FC00467611 /* YNNAKibobiViewController.swift in Sources */,
+				68CE08082185E5F50016E159 /* NNYAFukabiViewController.swift in Sources */,
+				683D8B042045947100B8C12A /* IshiTorokuViewController.swift in Sources */,
+				68C7C9E5215689B100223A0D /* HozonRevisionViewController.swift in Sources */,
+				68B6C64520E901E400E14541 /* DetailViewController.swift in Sources */,
+				6869C57F216A43AB00AAEFBB /* SubCalendarCollectionViewCell.swift in Sources */,
+				683D8AF7204582DD00B8C12A /* Tochoku.xcdatamodeld in Sources */,
+				68CE080C2185EF9F0016E159 /* NNYAImportViewController.swift in Sources */,
+				686A47C221873F2D0049D9CA /* DNSubCalendarCollectionViewCell.swift in Sources */,
+				68CAE3F7217CB77500404BEF /* YNNASakuseiViewController.swift in Sources */,
+				683D8AEF204582DD00B8C12A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		683D8AF2204582DD00B8C12A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683D8AF3204582DD00B8C12A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		683D8AFA204582DD00B8C12A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683D8AFB204582DD00B8C12A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		683D8AFE204582DD00B8C12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		683D8AFF204582DD00B8C12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683D8B01204582DD00B8C12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7GW64MW9FF;
+				INFOPLIST_FILE = Tochoku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matsuikeiji.Tochokuhyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PP210628Tochoku;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		683D8B02204582DD00B8C12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7GW64MW9FF;
+				INFOPLIST_FILE = Tochoku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matsuikeiji.Tochokuhyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DP210630Tochoku;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683D8AE6204582DD00B8C12A /* Build configuration list for PBXProject "Tochoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683D8AFE204582DD00B8C12A /* Debug */,
+				683D8AFF204582DD00B8C12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683D8B00204582DD00B8C12A /* Build configuration list for PBXNativeTarget "Tochoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683D8B01204582DD00B8C12A /* Debug */,
+				683D8B02204582DD00B8C12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		683D8AF5204582DD00B8C12A /* Tochoku.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				683D8AF6204582DD00B8C12A /* Tochoku.xcdatamodel */,
+			);
+			currentVersion = 683D8AF6204582DD00B8C12A /* Tochoku.xcdatamodel */;
+			path = Tochoku.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 683D8AE3204582DD00B8C12A /* Project object */;
+}
