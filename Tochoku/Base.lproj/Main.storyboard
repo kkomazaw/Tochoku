@@ -1800,7 +1800,7 @@
                                                                     <action selector="myActionNyuryokuKanryo" destination="4V3-BL-VIv" eventType="touchUpInside" id="6z7-Bu-rS0"/>
                                                                     <action selector="myActionNyuryokuKanryo" destination="1uD-v9-Rl8" eventType="touchUpInside" id="KEu-vr-Pe4"/>
                                                                     <action selector="myActionNyuryokuKanryo" destination="TEM-fF-IHe" eventType="touchUpInside" id="U54-PJ-Ab5"/>
-                                                                    <segue destination="1BT-vk-P9r" kind="push" id="SHH-XR-A4I"/>
+                                                                    <segue destination="1BT-vk-P9r" kind="push" identifier="toTochokuanDN" id="SHH-XR-A4I"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlJ-4E-iPZ">
@@ -1873,7 +1873,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hU8-SF-wWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3776.811594202899" y="969.64285714285711"/>
+            <point key="canvasLocation" x="-3820" y="970"/>
         </scene>
         <!--Sakusei View Controller-->
         <scene sceneID="Apj-8s-hPa">
@@ -2059,7 +2059,7 @@
                                                                 <rect key="frame" x="83" y="0.0" width="83.333333333333314" height="65.333333333333329"/>
                                                                 <state key="normal" title="既作案"/>
                                                                 <connections>
-                                                                    <segue destination="1BT-vk-P9r" kind="push" id="4BE-yj-SBR"/>
+                                                                    <segue destination="1BT-vk-P9r" kind="push" identifier="toTochokuanNNYA" id="4BE-yj-SBR"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="efW-sI-edM">
@@ -2128,7 +2128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygu-9D-rg4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2884" y="980"/>
+            <point key="canvasLocation" x="-2949" y="956"/>
         </scene>
         <!--Sakusei View Controller-->
         <scene sceneID="z8T-mi-CEH">
@@ -2306,7 +2306,7 @@
                                                                 <rect key="frame" x="83" y="0.0" width="83.333333333333314" height="65.333333333333329"/>
                                                                 <state key="normal" title="既作案"/>
                                                                 <connections>
-                                                                    <segue destination="1BT-vk-P9r" kind="push" id="jRU-on-Rqv"/>
+                                                                    <segue destination="1BT-vk-P9r" kind="push" identifier="" id="jRU-on-Rqv"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-Vj-9aT">
@@ -2376,7 +2376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a5x-Dg-VJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2022" y="980"/>
+            <point key="canvasLocation" x="-1991" y="956"/>
         </scene>
         <!--当直表作成-->
         <scene sceneID="Zfz-MH-FbG">
@@ -2622,7 +2622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhO-bJ-dW7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1210.144927536232" y="979.6875"/>
+            <point key="canvasLocation" x="-1210" y="956"/>
         </scene>
         <!--当直案-->
         <scene sceneID="WOY-HX-fiy">
@@ -2718,7 +2718,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Np-5s-VVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-223" y="970"/>
+            <point key="canvasLocation" x="-178" y="956"/>
         </scene>
         <!--移動者選択-->
         <scene sceneID="TH9-rM-o0B">
@@ -3564,9 +3564,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ams-cx-4eV"/>
-        <segue reference="0PY-7J-8oU"/>
-        <segue reference="NsQ-hD-3g1"/>
+        <segue reference="tWC-l9-Yt7"/>
+        <segue reference="cY5-40-1Ag"/>
+        <segue reference="SHH-XR-A4I"/>
         <segue reference="5Ca-Hf-XZq"/>
     </inferredMetricsTieBreakers>
     <resources>

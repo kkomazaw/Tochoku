@@ -92,7 +92,13 @@ class NNYASakuseiViewController: UIViewController, UIPickerViewDelegate, UIColle
                 //1日(ついたち)は、kyujitsuHeijitsuArray[0]となります。
                 if i % 7 == 0{
                     kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .kyujitsu
-                }
+                    if isDoyoNicchoku {
+                        kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .kyujitsu
+                        if let _ = nichiyouHeijitsuString.range(of: dateString){
+                            kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .heijitsu
+                        } //if let _ = nichiyouHeijitsuString.range(of: dateString)
+                    } //if isDoyoNicchoku
+                } //else if i % 7 == 6
                 else if i % 7 == 6{
                     kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .doyo
                 }
@@ -169,8 +175,16 @@ class NNYASakuseiViewController: UIViewController, UIPickerViewDelegate, UIColle
                 kyujitsuTupleArray.append((dayIndex, selectedString, selectedDay, .heijitsu))
             }//if weekday >= 2 && weekday <= 6
             if weekday == 7{
+                if isDoyoNicchoku{
+                    kyujitsuTupleArray.append((dayIndex, selectedString, selectedDay, .kyujitsu))
+                    if let _ = nichiyouHeijitsuString.range(of: selectedString){
+                        kyujitsuTupleArray[i].type = .heijitsu
+                    }
+                } //if isDoyoNicchoku
+                else{
                 kyujitsuTupleArray.append((dayIndex, selectedString, selectedDay, .doyo))
-            }//if weekday == 7
+                }
+           }//if weekday == 7
             if let _ = holiday.range(of: selectedString){
                 kyujitsuTupleArray[i].type = .kyujitsu
             }//if let _ = holiday.range(of: selectedString)
@@ -690,6 +704,7 @@ class NNYASakuseiViewController: UIViewController, UIPickerViewDelegate, UIColle
         }
         //typealias YusenScore = (aDay: Int, type: TochokuType, yScore: Int)
         //typealias KyujitsuTuple = (aDay:Int, dayString:String, dayDate:Date, type:DayType)
+        yusenScores.removeAll()
         for i in 0 ..< daysCountInMonth{
             switch filteredTupleArray[i].type{
             case .heijitsu:
@@ -1259,7 +1274,7 @@ class NNYASakuseiViewController: UIViewController, UIPickerViewDelegate, UIColle
                 let serial = bufferScores.filter{$0.month == bufferMonth}.count
                 bufferScores.append((month: bufferMonth, serial: serial, yusenTuple: yusenScores, firstDayDate: (self.filteredTupleArray.first?.dayDate)!, lastDayDate: (self.filteredTupleArray.last?.dayDate)!))
                 bufferCount = serial + 1
-                self.performSegue(withIdentifier: "toTochokuan", sender: true)
+                self.performSegue(withIdentifier: "toTochokuanNNYA", sender: true)
             })//let okAction: UIAlertAction
             let cancelAction = UIAlertAction(title: "破棄する", style: .cancel, handler: nil)
             alert.addAction(okAction)
@@ -1273,7 +1288,7 @@ class NNYASakuseiViewController: UIViewController, UIPickerViewDelegate, UIColle
             let serial = bufferScores.filter{$0.month == bufferMonth}.count
             bufferScores.append((month: bufferMonth, serial: serial, yusenTuple: yusenScores, firstDayDate: (filteredTupleArray.first?.dayDate)!, lastDayDate: (filteredTupleArray.last?.dayDate)!))
             bufferCount = serial + 1
-            performSegue(withIdentifier: "toTochokuan", sender: true)
+            performSegue(withIdentifier: "toTochokuanNNYA", sender: true)
         }//if isCompleted
     }//@IBAction func myActionNyuryokuKanryo()
     

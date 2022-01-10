@@ -1002,7 +1002,7 @@ class DNSakuseiViewController: UIViewController, UIPickerViewDelegate, UICollect
                 let serial = bufferScores.filter{$0.month == bufferMonth}.count
                 bufferScores.append((month: bufferMonth, serial: serial, yusenTuple: yusenScores, firstDayDate: (self.filteredTupleArray.first?.dayDate)!, lastDayDate: (self.filteredTupleArray.last?.dayDate)!))
                 bufferCount = serial + 1
-                self.performSegue(withIdentifier: "toTochokuanYNNA", sender: true)
+                self.performSegue(withIdentifier: "toTochokuanDN", sender: true)
             })//let okAction: UIAlertAction
             let cancelAction = UIAlertAction(title: "破棄する", style: .cancel, handler: nil)
             alert.addAction(okAction)
@@ -1016,7 +1016,7 @@ class DNSakuseiViewController: UIViewController, UIPickerViewDelegate, UICollect
             let serial = bufferScores.filter{$0.month == bufferMonth}.count
             bufferScores.append((month: bufferMonth, serial: serial, yusenTuple: yusenScores, firstDayDate: (filteredTupleArray.first?.dayDate)!, lastDayDate: (filteredTupleArray.last?.dayDate)!))
             bufferCount = serial + 1
-            performSegue(withIdentifier: "toTochokuanYNNA", sender: true)
+            performSegue(withIdentifier: "toTochokuanDN", sender: true)
         }//if isCompleted
     }//@IBAction func myActionNyuryokuKanryo()
     
