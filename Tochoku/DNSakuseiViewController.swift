@@ -96,7 +96,13 @@ class DNSakuseiViewController: UIViewController, UIPickerViewDelegate, UICollect
                 }
                 else if i % 7 == 6{
                     kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .doyo
-                }
+                    if isDoyoNicchoku {
+                        kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .kyujitsu
+                        if let _ = nichiyouHeijitsuString.range(of: dateString){
+                            kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .heijitsu
+                        } //if let _ = nichiyouHeijitsuString.range(of: dateString)
+                    } //if isDoyoNicchoku
+                } //else if i % 7 == 6
                 else{
                     kyujitsuHeijitsuArray[i + weekdayAdding - 1] = .heijitsu
                 }
@@ -170,7 +176,15 @@ class DNSakuseiViewController: UIViewController, UIPickerViewDelegate, UICollect
                 kyujitsuTupleArray.append((dayIndex, selectedString, selectedDay, .heijitsu))
             }//if weekday >= 2 && weekday <= 6
             if weekday == 7{
+                if isDoyoNicchoku{
+                    kyujitsuTupleArray.append((dayIndex, selectedString, selectedDay, .kyujitsu))
+                    if let _ = nichiyouHeijitsuString.range(of: selectedString){
+                        kyujitsuTupleArray[i].type = .heijitsu
+                    }
+                } //if isDoyoNicchoku
+                else{
                 kyujitsuTupleArray.append((dayIndex, selectedString, selectedDay, .doyo))
+                }
             }//if weekday == 7
             if let _ = holiday.range(of: selectedString){
                 kyujitsuTupleArray[i].type = .kyujitsu
@@ -551,7 +565,7 @@ class DNSakuseiViewController: UIViewController, UIPickerViewDelegate, UICollect
         }
         //typealias YusenScore = (aDay: Int, type: TochokuType, yScore: Int)
         //typealias KyujitsuTuple = (aDay:Int, dayString:String, dayDate:Date, type:DayType)
-        
+        yusenScores.removeAll()
         for i in 0 ..< daysCountInMonth{
             switch filteredTupleArray[i].type{
             case .heijitsu:
